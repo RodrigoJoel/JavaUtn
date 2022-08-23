@@ -14,8 +14,8 @@ public class Api {
         System.out.println("la tangente del numero es "+Math.tan(numero));
         System.out.println("el arco del numero es "+Math.atan(numero));
         System.out.println("el retorno del numero es "+Math.atan2(numero,numero));
-        System.out.println("el elevado del numero es "+Math.exp(numero));
-        System.out.println("el neutro del numero es "+Math.log(numero));
+        System.out.println("el exponencial del numero es "+Math.exp(numero));
+        System.out.println("el inverso del numero es "+Math.log(numero));
         System.out.println("el valor de e "+ Math.E);
         System.out.println("el valor de Pi "+ Math.PI);
 
