@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Api {
+
+    public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
+
+        double numero;
+        
+        System.out.println("ingrese un numero ");
+        numero = entrada.nextDouble();
+        System.out.println("el seno del numero es "+Math.sin(numero));
+        System.out.println("el coseno del numero es "+Math.cos(numero));
+        System.out.println("la tangente del numero es "+Math.tan(numero));
+        System.out.println("el arco del numero es "+Math.atan(numero));
+        System.out.println("el retorno del numero es "+Math.atan2(numero,numero));
+        System.out.println("el elevado del numero es "+Math.exp(numero));
+        System.out.println("el neutro del numero es "+Math.log(numero));
+        System.out.println("el valor de e "+ Math.E);
+        System.out.println("el valor de Pi "+ Math.PI);
+
+
+    }
+}
